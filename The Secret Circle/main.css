@@ -1,0 +1,151 @@
+body {
+    background-image: url("tsc.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	color: #72E80B;
+	text-align: center;
+	font-size: 120px;
+	font-family: 'Anton', sans-serif;
+	margin-top: 300px;
+}
+
+h2 {
+	color: #72E80B;
+	text-align: center;
+	font-size: 40px;
+	/*font-family: 'Ravi Prakash', cursive;*/
+	font-family: 'Anton', sans-serif;
+	margin-top: 5px;
+}
+
+h4 {
+	text-align: center;
+}
+
+.header {
+	text-align: center;
+	background-color: gray;
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	padding-top: 15px; 
+
+	
+}
+
+.header a{
+	color: white;
+	font-family: 'Baloo', cursive;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 30px; 
+	font-size: 22pt;
+}
+
+.about {
+	text-align: center;
+	background-color: white;
+	opacity: 0.7;
+	margin: 40px;
+	margin-top: 150px;
+}
+
+.about p {
+	font-size: 22pt;
+	font-weight: bold;
+
+}
+.author {
+	text-align: center;
+	margin-top: 25px;
+	width: 100%;
+	margin: auto;
+
+
+}
+
+.author p{
+	color: black;
+	font-size: 18pt;
+	font-weight: bold;
+
+}
+
+.auth {
+	border: 40px solid gray;
+	background-color: white;
+	opacity: 0.7;
+	width: 100%;
+	height: 500px;
+}
+
+.books {
+	/*background-color: white;
+	opacity: 0.875;
+	width: 65%;
+	height: 900px;
+	margin-top: 100px;
+	margin: auto;
+	margin-left: 300px;
+	margin-right: 500px;*/
+
+}
+
+img {
+	margin: 80px;
+}
+
+.pic {
+	background-color: white;
+	opacity: 0.950;
+	width: 385px;
+	margin: 0 auto;
+	margin-top: 30px;
+
+
+}
+
+.text {
+	background-color: white;
+	opacity: 0.7;
+	width: 800px;
+	margin: auto;
+	
+}
+
+.text p{
+	font-weight: bold;
+	text-align: center;
+	font-size: 16pt;
+}
+
+.media {
+	text-align: center;
+	margin: auto;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
